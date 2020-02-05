@@ -127,5 +127,7 @@ static inline unsigned long array_index_mask_nospec(unsigned long idx,
 #define array_index_mask_nospec array_index_mask_nospec
 #endif
 
+#include <asm-generic/barrier.h>
+
 #endif /* !__ASSEMBLY__ */
 #endif /* __ASM_BARRIER_H */
